@@ -1,0 +1,25 @@
+Classe
+
+    Relacionado ao conceito de abstração na orientação à objeto
+    Abstração: obejto real e tranforma em objeto na programação
+
+    Ex: Classe Pessoa
+        Atributo Nome, Idade
+
+    Sempre representar informações que você vaiuu utilizar, de acordo com o objetivo do seu programa
+
+    Metodo: a ação que a classe vai fazer
+
+    Classe -> Atributo -> Metodos
+
+    Classe representa a construção de um objeto
+
+------------------------------------------------------------------------
+    A classe sempre tem que começar com maiuscula(camelcase)
+    Ex: Pessoa, PessoaFisica
+
+    Pode ter mais de uma classe com o mesmo nome, porém devem estar em namespaces diferentes
+    namespaces: caminho para a classe criada
+
+    Instanciar a classe: criar de fato o objeto para ser manipulado
+    Se usa new Classe para instanciar a classe
