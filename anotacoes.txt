@@ -14,7 +14,8 @@ Classe
 
     Classe representa a construção de um objeto
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
     A classe sempre tem que começar com maiuscula(camelcase)
     Ex: Pessoa, PessoaFisica
 
@@ -23,3 +24,44 @@ Classe
 
     Instanciar a classe: criar de fato o objeto para ser manipulado
     Se usa new Classe para instanciar a classe
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+    O . é a continuação da ação relacionada aquela classe.(chamar metodo)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+    Cases (Convenções)
+        camelCase
+        PascalCase
+        snake_case
+        spinal-case
+
+    É importante utilizar para deixar o código mais legivel e padronizado
+    No C# é mais usado o camelCase e o PascalCase
+
+    Nunca abrevia classe, propriedade e variaveis, para melhor entendimento e manutenção do código, mesmo que o nome fique grande
+    É recomendado que o nome da classe siga o nome do arquivo fisico
+    Não pode ter caractere especial na classe, nome(propriedade) ou variavel, exceto underline(_)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+    Tipos de dados
+        - String: serie de caracteres(cadeia) / Texto(letra, numeros e caracteres especiais)
+        - Char: caracter unicode
+        - Object:
+        - Booleano: false ou true / 0 ou 1
+        - Byte:
+        - Decimal: Valores com 28 a 29 digitos decimais / Valores monetários por exemplo / Mais preciso
+        - Double: Valores decimais (64 bits) mais preciso que o float
+        - Int: valor inteiro(idade, quantidade)
+        - Float: Valores decimais (32 bits)
+        - Long: Maior quantiadde de valores aceito
+        - Uint: Não aceita valores negativos mas dobra a quantidade de valores positivos
+        - Short: Aceita um quantidade bem reduzida de valores
+        - Ulong: Não aceita valores negativos mas dobra a quantidade de valores positivos
+       
+----------------------------------------------------------------------------------------------------------------------------------------
+
+    DateTime
+        Representar datas no C#
