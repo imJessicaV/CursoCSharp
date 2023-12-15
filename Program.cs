@@ -2,7 +2,24 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
+//Operadores de condição
+int QuantidadeEstoque = 100;
+int QuantidadeCompra = 4;
+int QuantidadeAtual = QuantidadeEstoque - QuantidadeCompra;
+bool PossivelVenda = QuantidadeEstoque >= QuantidadeCompra;
 
+Console.WriteLine($"Estoque: {QuantidadeEstoque}");
+Console.WriteLine($"Venda: {QuantidadeCompra}");
+Console.WriteLine($"É possivel fazer a venda? {PossivelVenda}");
+Console.WriteLine($"Estoque Atualizado: {QuantidadeAtual}");
+
+if(PossivelVenda){
+    Console.WriteLine("Compra realizada com sucesso =)");
+}
+else
+{
+    Console.WriteLine("Quantidade não disponível em estoque =(");
+}
 
 
 

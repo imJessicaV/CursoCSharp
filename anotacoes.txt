@@ -87,8 +87,15 @@ Classe
         Casting Implicito
         Converte automaticamente
 
+        .TryParse: ele tenta converter e mesmo que de erro ele continua o programa
+
     Ordem dos Operadores
         1º ()
         2º Expoente
         3º Divisão e Multiplicação
         4º Adição e Subtração
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+    Operadores Condicionais
+        Muda o fluxo de execusão do código e mostra qual caminho quer percorrer.
