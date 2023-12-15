@@ -65,3 +65,8 @@ Classe
 
     DateTime
         Representar datas no C#
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+    Operadores de atribuição
+        = : Atribui um valor á uma variavel

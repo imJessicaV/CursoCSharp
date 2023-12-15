@@ -2,9 +2,22 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-DateTime dataAtual = DateTime.Now.AddHours(-3).AddDays(2);//pega a data da maquina onde o codigo está sendo executado
+int A = 19;
+int B = 8;
+int C = A + B;
 
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+C = C + 6; //C é uma variavel já existente pois já foi declarada
+//pode ser utilizado também C += 6
+Console.WriteLine(C);
+
+
+
+
+
+
+//DateTime dataAtual = DateTime.Now.AddHours(-3).AddDays(2);//pega a data da maquina onde o codigo está sendo executado
+
+//Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 // string Moeda = "Real";
 
 // int Quantidade = 1;
