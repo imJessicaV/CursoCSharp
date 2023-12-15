@@ -70,3 +70,25 @@ Classe
 
     Operadores de atribuição
         = : Atribui um valor á uma variavel
+        +=
+        -=
+        /=
+        *=
+        %=
+
+    Converte valores
+        INT
+        Convert.(metodo a ser utilizado): aceita valor null
+        .Parse: não aceita valor null
+
+        STRING
+        .TiString()
+
+        Casting Implicito
+        Converte automaticamente
+
+    Ordem dos Operadores
+        1º ()
+        2º Expoente
+        3º Divisão e Multiplicação
+        4º Adição e Subtração

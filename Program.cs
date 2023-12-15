@@ -2,18 +2,36 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-int A = 19;
-int B = 8;
-int C = A + B;
-
-C = C + 6; //C é uma variavel já existente pois já foi declarada
-//pode ser utilizado também C += 6
-Console.WriteLine(C);
 
 
 
 
+// double a = 4 / (2 + 2);
+// Console.WriteLine(a);
 
+// long b = long.MinValue;
+// Console.WriteLine(b);
+
+// //Cast implicito
+// int a = 5;
+// double b = a;
+
+//converter para string
+// int inteiro = 10;
+// string A  = inteiro.ToString();
+// Console.WriteLine(A);
+
+//Cast / Casting == converter valores inteiros
+//int A = Convert.ToInt32("5");
+//int A = int.Parse("9A");
+
+// int A = 19;
+// int B = 8;
+// int C = A + B;
+
+// C = C + 6; //C é uma variavel já existente pois já foi declarada
+// //pode ser utilizado também C += 6
+// Console.WriteLine(C);
 
 //DateTime dataAtual = DateTime.Now.AddHours(-3).AddDays(2);//pega a data da maquina onde o codigo está sendo executado
 
