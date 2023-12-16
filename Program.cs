@@ -2,25 +2,51 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-//Operadores de condição
-int QuantidadeEstoque = 100;
-int QuantidadeCompra = 4;
-int QuantidadeAtual = QuantidadeEstoque - QuantidadeCompra;
-bool PossivelVenda = QuantidadeEstoque >= QuantidadeCompra;
+//Switch case
+Console.WriteLine("Digite uam letra");
+string? Letra = Console.ReadLine();
 
-Console.WriteLine($"Estoque: {QuantidadeEstoque}");
-Console.WriteLine($"Venda: {QuantidadeCompra}");
-Console.WriteLine($"É possivel fazer a venda? {PossivelVenda}");
-Console.WriteLine($"Estoque Atualizado: {QuantidadeAtual}");
+switch(Letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    Console.WriteLine("É uma vogaaaaal!");
+    break;
 
-if(PossivelVenda){
-    Console.WriteLine("Compra realizada com sucesso =)");
+    default: //mesma função do else
+    Console.WriteLine("Não é uma vogal");
+    break;
 }
-else
-{
-    Console.WriteLine("Quantidade não disponível em estoque =(");
-}
 
+// if(Letra == "a" || Letra == "e" || Letra == "i" || Letra == "o" || Letra == "u"){
+//     Console.WriteLine("É uma vogal!!");
+// }else{
+//     Console.WriteLine("É uma consoante!!");
+// }
+
+
+
+// //Operadores de condição / IF / ELSE / ELSE IF
+// int QuantidadeEstoque = 100;
+// int QuantidadeCompra = 0;
+// bool PossivelVenda = QuantidadeCompra > 0 && QuantidadeEstoque >= QuantidadeCompra;
+
+// Console.WriteLine($"Estoque: {QuantidadeEstoque}");
+// Console.WriteLine($"Venda: {QuantidadeCompra}");
+// Console.WriteLine($"É possivel fazer a venda? {PossivelVenda}");
+
+// if(QuantidadeCompra == 0){
+//     Console.WriteLine("Venda inválilda");
+// }else if(PossivelVenda)
+// {
+//     Console.WriteLine("Compra realizada com sucesso =)");
+// }
+// else
+// {
+//     Console.WriteLine("Quantidade não disponível em estoque =(");
+// }
 
 
 // double a = 4 / (2 + 2);
