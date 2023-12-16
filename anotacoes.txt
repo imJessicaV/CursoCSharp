@@ -99,3 +99,22 @@ Classe
 
     Operadores Condicionais
         Muda o fluxo de execusão do código e mostra qual caminho quer percorrer.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+    Operadores Logicos
+        Or / ou / Pipe(||)  
+            Verdade e falso = Verdadeiro
+            Falso e verdadeiro = Verdadeiro
+            Verdadeiro e verdadeiro = Verdadeiro
+            Falso e falso = Falso
+
+        And / E / &&
+            Verdade e falso = Falso
+            Falso e verdadeiro = Falso
+            Falso e falso = Falso
+            Verdadeiro e verdadeiro = Verdadeiro
+        
+        NOT / !
+            Verdadeiro = Falso
+            Falso = Verdadeiro

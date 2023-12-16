@@ -2,23 +2,58 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-//Switch case
-Console.WriteLine("Digite uam letra");
-string? Letra = Console.ReadLine();
+//Operadores logicos NOT
+bool Choveu = false;
+bool EstaTarde = true;
 
-switch(Letra){
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("É uma vogaaaaal!");
-    break;
-
-    default: //mesma função do else
-    Console.WriteLine("Não é uma vogal");
-    break;
+if(!Choveu && !EstaTarde){
+    Console.WriteLine("Vamos pedalar");
+}else{
+    Console.WriteLine("Não vamos pedalar");
 }
+
+
+//Operadores logicos AND/E
+// bool PresencaMinima = true;
+// double MediaSete = 6.9;
+
+// if(PresencaMinima && MediaSete >= 7){
+//     Console.WriteLine("Aprovado");
+// }else{
+//     Console.WriteLine("Reprovado");
+// }
+
+
+//Operadores logicos OR/OU
+// bool MaiorDeIdade = false;
+// bool TemAutorizacao = true;
+
+// if(MaiorDeIdade || TemAutorizacao){
+//     Console.WriteLine("Entrada Autorizada");
+// }else{
+//     Console.WriteLine("Entrada não autorizada!");
+// }
+
+
+
+
+//Switch case
+// Console.WriteLine("Digite uam letra");
+// string? Letra = Console.ReadLine();
+
+// switch(Letra){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//     Console.WriteLine("É uma vogaaaaal!");
+//     break;
+
+//     default: //mesma função do else
+//     Console.WriteLine("Não é uma vogal");
+//     break;
+// }
 
 // if(Letra == "a" || Letra == "e" || Letra == "i" || Letra == "o" || Letra == "u"){
 //     Console.WriteLine("É uma vogal!!");
