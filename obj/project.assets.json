@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yagam\\.nuget\\packages\\": {}
+    "C:\\Users\\JéssicaVitorianoBR-i\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yagam\\Desktop\\CursoCSharp\\CursoCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\JéssicaVitorianoBR-i\\OneDrive - BR-iT\\Trabalho\\Pessoal\\CursoCSharp\\CursoCSharp.csproj",
       "projectName": "CursoCSharp",
-      "projectPath": "C:\\Users\\yagam\\Desktop\\CursoCSharp\\CursoCSharp.csproj",
-      "packagesPath": "C:\\Users\\yagam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yagam\\Desktop\\CursoCSharp\\obj\\",
+      "projectPath": "C:\\Users\\JéssicaVitorianoBR-i\\OneDrive - BR-iT\\Trabalho\\Pessoal\\CursoCSharp\\CursoCSharp.csproj",
+      "packagesPath": "C:\\Users\\JéssicaVitorianoBR-i\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JéssicaVitorianoBR-i\\OneDrive - BR-iT\\Trabalho\\Pessoal\\CursoCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yagam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JéssicaVitorianoBR-i\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
