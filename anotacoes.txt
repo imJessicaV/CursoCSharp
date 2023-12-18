@@ -118,3 +118,16 @@ Classe
         NOT / !
             Verdadeiro = Falso
             Falso = Verdadeiro
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+    Operadores Aritiméticos e classe Math
+        + Adição | x + x
+        - Subtração | x - x
+        * Multiplicação | x * x
+        / Divisão | x / x
+        % Resto/Modulo | x % x
+        ++ Incremento | x++
+        -- Decremento | x--
+
+        Math possui todas as operações mais complexas da matemática(seno, coseno, tangente, fatorial, etc)

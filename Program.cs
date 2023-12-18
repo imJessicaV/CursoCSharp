@@ -4,6 +4,32 @@ using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
 
 
+//Calculo de raiz quadrada
+// Calculadora calc = new Calculadora();
+// calc.RaizQuadrada(121);
+
+//Incremento e decremento
+// int Teste = 10;
+// int Teste2 = 20;
+// Console.WriteLine(Teste);
+// Console.WriteLine($"Incremento de {Teste}");
+// Teste++;
+// Console.WriteLine(Teste);
+// Console.WriteLine(Teste2);
+// Console.WriteLine($"Decremento de {Teste2}");
+// Teste2--;
+// Console.WriteLine(Teste2);
+
+//CALCULADORA
+// Calculadora calc = new Calculadora();
+// calc.Somar(10, 5);
+// calc.Multiplicar(20, 9);
+// calc.Dividir(100, 2);
+// calc.Subtrair(490, 210);
+// calc.Potencia(3, 3);
+// calc.Seno(10);
+// calc.Coseno(30);
+// calc.Tangente(25);
 
 //ATIVIDADE
 // Random random = new Random();
