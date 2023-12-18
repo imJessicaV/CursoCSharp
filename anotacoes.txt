@@ -131,3 +131,8 @@ Classe
         -- Decremento | x--
 
         Math possui todas as operações mais complexas da matemática(seno, coseno, tangente, fatorial, etc)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+    Estruturas de repetição
+        
