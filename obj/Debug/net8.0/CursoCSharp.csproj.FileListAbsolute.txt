@@ -13,3 +13,18 @@ C:\Users\yagam\Desktop\CursoCSharp\obj\Debug\net8.0\refint\CursoCSharp.dll
 C:\Users\yagam\Desktop\CursoCSharp\obj\Debug\net8.0\CursoCSharp.pdb
 C:\Users\yagam\Desktop\CursoCSharp\obj\Debug\net8.0\CursoCSharp.genruntimeconfig.cache
 C:\Users\yagam\Desktop\CursoCSharp\obj\Debug\net8.0\ref\CursoCSharp.dll
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\bin\Debug\net8.0\CursoCSharp.exe
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\bin\Debug\net8.0\CursoCSharp.deps.json
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\bin\Debug\net8.0\CursoCSharp.runtimeconfig.json
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\bin\Debug\net8.0\CursoCSharp.dll
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\bin\Debug\net8.0\CursoCSharp.pdb
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.AssemblyInfo.cs
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.sourcelink.json
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.dll
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\refint\CursoCSharp.dll
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.pdb
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\JéssicaVitorianoBR-i\OneDrive - BR-iT\Trabalho\Pessoal\CursoCSharp\obj\Debug\net8.0\ref\CursoCSharp.dll
