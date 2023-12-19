@@ -4,8 +4,9 @@ using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
 //Menu Interativo usando Do While
 string? Opcao = "";
+bool exibirMenu = true;
 
-while(true){
+while(exibirMenu){
     Console.Clear();//limpa o menu
     Console.WriteLine("Digite a sua opção: ");
     Console.WriteLine("1 - Cadastrar Cliente");
@@ -30,16 +31,16 @@ while(true){
 
         case "4":
         Console.WriteLine("Encerrar");
-        Environment.Exit(0);
+        exibirMenu = false;
+       // Environment.Exit(0);//sai e não executa mais nada mesmo que tenha codigo abaixo do laço de repetição.
         break;
 
         default:
         Console.WriteLine("Opção Inválida!");
         break;
     }
-
-
 }
+Console.WriteLine("O programa encerrou =(");
 
 //DO WHILE
 // int Soma = 0, Numero = 0; //pode declarar varias variaveis do mesmo tipo em uma unica linha, de uma vez só
