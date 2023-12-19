@@ -2,12 +2,22 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-//Tabuada | laços de repetição e incremento
-int Numero = 7;
-for(int cont = 0; cont <= 10; cont++){
-    Console.WriteLine($"{Numero} x {cont} = {Numero * cont}"); //laço de repetição FOR
-}
 
+
+//WHILE
+// int Numero = 7;
+// int cont = 0;
+
+// while(cont <= 10){
+//     Console.WriteLine($" {Numero} x {cont} = {Numero * cont}");
+//     cont++;
+// }
+
+//Tabuada | laços de repetição e incremento
+// int Numero = 7;
+// for(int cont = 0; cont <= 10; cont++){
+//     Console.WriteLine($"{Numero} x {cont} = {Numero * cont}"); //laço de repetição FOR
+// }
 
 //Calculo de raiz quadrada
 // Calculadora calc = new Calculadora();
