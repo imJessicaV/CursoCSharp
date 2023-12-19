@@ -2,16 +2,71 @@
 
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
+//Menu Interativo usando Do While
+string? Opcao = "";
 
+while(true){
+    Console.Clear();//limpa o menu
+    Console.WriteLine("Digite a sua opção: ");
+    Console.WriteLine("1 - Cadastrar Cliente");
+    Console.WriteLine("2 - Buscar Cliente");
+    Console.WriteLine("3 - Apagar Cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    Opcao = Console.ReadLine();
+
+    switch(Opcao){
+        case "1":
+        Console.WriteLine("Cadastro de Cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Buscar Cliente");
+        break;
+
+        case "3":
+        Console.WriteLine("Apagar Cliente");
+        break;
+
+        case "4":
+        Console.WriteLine("Encerrar");
+        Environment.Exit(0);
+        break;
+
+        default:
+        Console.WriteLine("Opção Inválida!");
+        break;
+    }
+
+
+}
+
+//DO WHILE
+// int Soma = 0, Numero = 0; //pode declarar varias variaveis do mesmo tipo em uma unica linha, de uma vez só
+
+// do{
+//     Console.WriteLine("Digite um numero, meu jovem!(0 para parar)");
+//     Numero = Convert.ToInt32(Console.ReadLine());
+
+//     Soma += Numero;//é igual à soma = soma + numero
+
+
+// }while(Numero != 0);
+
+// Console.WriteLine($"Total dos numeros digitados é {Soma}");
 
 //WHILE
-// int Numero = 7;
-// int cont = 0;
+//  int Numero = 7;
+//  int cont = 0;
 
-// while(cont <= 10){
-//     Console.WriteLine($" {Numero} x {cont} = {Numero * cont}");
+//  while(cont <= 10){
+//      Console.WriteLine($" {Numero} x {cont} = {Numero * cont}");
 //     cont++;
-// }
+
+//     if(cont == 7){
+//         break; // serve para quebrar uma condição
+//     }
+//  }
 
 //Tabuada | laços de repetição e incremento
 // int Numero = 7;
