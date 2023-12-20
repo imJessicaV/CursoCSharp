@@ -1,19 +1,54 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-//Array e listas
-int[] Inteiros = new int[3];
+//Listas(array melhorado)
+List<string> listaString = new List<string>();
 
-Inteiros[0] = 99;
-Inteiros[1] = 67;
-Inteiros[2] = 100;
+listaString.Add("Jessica");
+listaString.Add("Batista");
+listaString.Add("Genilda");
+listaString.Add("Davidson");
 
-for(int contador = 0; contador < Inteiros.Length; contador++){
-    Console.WriteLine($"Posição n° {contador} - Array: {Inteiros[contador]}");
+for(int cont = 0; cont < listaString.Count; cont++){
+    Console.WriteLine($"{cont} - {listaString[cont]}");
 }
 
-Console.WriteLine();
+Console.WriteLine("Com foreach");
+
+int contFor = 0;
+foreach(string item in listaString){
+    Console.WriteLine($"{contFor} - {item}");
+    contFor++;
+}
+
+//Arrays
+// int[] Inteiros = new int[3];
+
+// Inteiros[0] = 99;
+// Inteiros[1] = 67;
+// Inteiros[2] = 100;
+
+// int[] novoArray = new int[Inteiros.Length * 2];
+// Array.Copy(Inteiros, novoArray, Inteiros.Length);//copias os valores de um array para outro
+
+
+// //Array.Resize(ref Inteiros, Inteiros.Length * 2);
+
+// //Array e listas usando FOR | quando precisa de um contador
+// for (int contador = 0; contador < Inteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição n° {contador} - Array: {Inteiros[contador]}");
+// }
+// //Array e listas usando foreach
+// int contadorForeach = 0;
+// foreach (int Valor in Inteiros)
+// {
+//     Console.WriteLine($"Posição n° {contadorForeach} - Array: {Valor}");
+//     contadorForeach++;
+// }
+
 
 //Menu Interativo usando Do While
 // string? Opcao = "";
