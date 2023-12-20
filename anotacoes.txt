@@ -135,4 +135,17 @@ Classe
 ---------------------------------------------------------------------------------------------------------------------------------------
 
     Estruturas de repetição
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+    Array e listas
+        É uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo. Uma unica variavel de um determinado tipo,
+        que contem varias informações(dados) do mesmo tipo.
+
+        Ex: int[] array = new int[4]; 4 é a quantidade de valores que o array vai armazenar
+            int[] array = new int[]{1, 2, 3, 4};
+            string[] nome = {"Jan","Fev"};
+
+        Indice
+            Posição de um determinado valor de um array, iniciando por 0    
         
