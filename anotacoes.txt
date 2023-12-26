@@ -148,4 +148,10 @@ Classe
 
         Indice
             Posição de um determinado valor de um array, iniciando por 0    
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+    Propriedades
+        Membro que ofrece um mecanismo felixivel para ler, gravar ou calcular o valor de um campo particular
+        
         

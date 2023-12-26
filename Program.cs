@@ -3,7 +3,11 @@
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-//Módulo
+//Propriedades, metodos e construtores
+Pessoa Pessoa = new Pessoa();
+Pessoa.Nome = "Jéssica";
+Pessoa.Idade = 35;
+Pessoa.Apresentar();
 
 
 
