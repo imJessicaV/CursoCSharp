@@ -162,5 +162,14 @@ Classe
         Campo não possui get e set. Só propriedade possui get e ser.
 
         Propriedade somente leitura(get)
+
+    Metodos
+        Bloco de codigo que contem diversas instruções
+
+        Assinatura do metodo
+        void: vazio, quando não é necessário um retorno
+        nome do metodo: nome para identificar o metodo(a seu criterio)
+        parametros: argumentos do metodo | classe + uma variavel que representa a classe(a seu critério)
         
+
         
