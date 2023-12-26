@@ -9,6 +9,18 @@ namespace CursoCSharp.Models //Pode ser alterado o nome para organização do c�
 {
     public class Pessoa //Na classe sempre utiliza-se PascalCase
     {
+
+        //O construtor sempro fica abaixo da classe
+
+        public Pessoa()
+        {
+
+        }
+        public Pessoa(string Nome, string SobreNome)
+        {
+
+        }
+
         private string _nome;
         public string Nome
         {

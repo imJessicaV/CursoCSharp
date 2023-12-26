@@ -3,16 +3,34 @@
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
+Pessoa PessoaUm = new Pessoa();
+PessoaUm.Nome = "Jéssica";
+PessoaUm.SobreNome = "Vitoriano";
+
+Pessoa PessoaDois = new Pessoa();// o () é o construtor
+PessoaDois.Nome = "Davidson";
+PessoaDois.SobreNome = "Vitoriano";
+
+Pessoa PessoaTres = new Pessoa();
+PessoaTres.Nome = "Ezio";
+PessoaTres.SobreNome = "Auditore";
+
+Curso CursoIngles = new Curso();
+CursoIngles.NomeCurso = "Ingles";
+CursoIngles.Alunos = new List<Pessoa>();
+
+CursoIngles.AdicionarAluno(PessoaUm);
+CursoIngles.AdicionarAluno(PessoaDois);
+CursoIngles.AdicionarAluno(PessoaTres);
+CursoIngles.ListarAlunos();
+
+
 //Propriedades, metodos e construtores
-Pessoa Pessoa = new Pessoa();
-Pessoa.Nome = "Jéssica";
-Pessoa.SobreNome = "Vitoriano";
-Pessoa.Idade = 35;
-Pessoa.Apresentar();
-
-
-
-
+// Pessoa Pessoa = new Pessoa();
+// Pessoa.Nome = "Jéssica";
+// Pessoa.SobreNome = "Vitoriano";
+// Pessoa.Idade = 35;
+// Pessoa.Apresentar();
 
 //Listas(array melhorado)
 // List<string> listaString = new List<string>();
