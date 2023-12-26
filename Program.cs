@@ -6,6 +6,7 @@ using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 //Propriedades, metodos e construtores
 Pessoa Pessoa = new Pessoa();
 Pessoa.Nome = "Jéssica";
+Pessoa.SobreNome = "Vitoriano";
 Pessoa.Idade = 35;
 Pessoa.Apresentar();
 

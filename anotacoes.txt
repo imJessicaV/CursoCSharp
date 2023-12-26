@@ -153,5 +153,14 @@ Classe
 
     Propriedades
         Membro que ofrece um mecanismo felixivel para ler, gravar ou calcular o valor de um campo particular
+
+        Public: qualquer um pode acessar(instanciar) essa classe. Pode ser usada na classe e em propriedade. Sem restrição de acesso
+        Private: acesso restrito. Só pode ser acessado dentro da própria classe e não são acessiveis externamente. A variavel só pode ser
+        acessada pela classe onde está inserida e está protegida de alterações externas
+
+        Encapsulamento: proteger um campo de alteração externa, para que possa ser feita uma validação antes de atribuir um valor
+        Campo não possui get e set. Só propriedade possui get e ser.
+
+        Propriedade somente leitura(get)
         
         

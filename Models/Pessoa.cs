@@ -23,24 +23,37 @@ namespace CursoCSharp.Models //Pode ser alterado o nome para organização do c�
              } 
         } 
 
+
+        public string SobreNome 
+        { 
+            get; 
+            set;
+            
+        }
+
+        public string NomeCompleto => $"{Nome} {SobreNome}".ToUpperInvariant();
+
         private int _idade;
         public int Idade
         { 
             get => _idade;
 
             set{
-                if(value <= 0){
-                    throw new ArgumentException("A idade não pode ser negativa");
+                if(value < 0){
+                    throw new ArgumentException("A idade não pode ser menor que zero");
                 }
                 _idade = value;
             }
         }
 
+
+        
+
         
          public void Apresentar() //Metodo(ação/função) | Também em PascalCase
          {
             
-            Console.WriteLine($"Olá, meu nome é {Nome}!!\nTenho {Idade} anos!");
+            Console.WriteLine($"Olá, meu nome é {NomeCompleto}!!\nTenho {Idade} anos!");
             
          }
     }
