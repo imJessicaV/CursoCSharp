@@ -3,17 +3,9 @@
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-Pessoa PessoaUm = new Pessoa();
-PessoaUm.Nome = "Jéssica";
-PessoaUm.SobreNome = "Vitoriano";
-
-Pessoa PessoaDois = new Pessoa();// o () é o construtor
-PessoaDois.Nome = "Davidson";
-PessoaDois.SobreNome = "Vitoriano";
-
-Pessoa PessoaTres = new Pessoa();
-PessoaTres.Nome = "Ezio";
-PessoaTres.SobreNome = "Auditore";
+Pessoa PessoaUm = new Pessoa(nome:"Jéssica", sobreNome:"Vitoriano");
+Pessoa PessoaDois = new Pessoa(nome:"Davidson", sobreNome:"Vitoriano");// o () é o construtor
+Pessoa PessoaTres = new Pessoa(nome:"Boomer", sobreNome:"Vitoriano");
 
 Curso CursoIngles = new Curso();
 CursoIngles.NomeCurso = "Ingles";

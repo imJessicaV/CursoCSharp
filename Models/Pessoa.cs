@@ -16,9 +16,10 @@ namespace CursoCSharp.Models //Pode ser alterado o nome para organização do c�
         {
 
         }
-        public Pessoa(string Nome, string SobreNome)
+        public Pessoa(string nome, string sobreNome)
         {
-
+            Nome = nome;
+            SobreNome = sobreNome;
         }
 
         private string _nome;
