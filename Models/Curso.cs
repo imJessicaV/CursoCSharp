@@ -25,16 +25,19 @@ namespace CursoCSharp.Models
             //return true;
         }
 
+        //refatoração
         public void ListarAlunos()
         {
-            Console.WriteLine($"Lista de alunos do curso de {NomeCurso}");
+            Console.WriteLine($"Lista de alunos do curso de {NomeCurso}");//interpolação de string
             Console.WriteLine("------------------------------------------");
-                    
-            foreach(Pessoa aluno in Alunos){
-                Console.WriteLine($"Aluno(a): {aluno.NomeCompleto}");
+
+            for(int cont = 0; cont < Alunos.Count; cont++){
+
+                string Texto = "Aluno n°: " + cont + " " + Alunos[cont].NomeCompleto;
+                Console.WriteLine(Texto);
                 Console.WriteLine("------------------------------------------");
-                
             }
+                
         }
     }
 }

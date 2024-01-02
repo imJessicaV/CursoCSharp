@@ -182,4 +182,8 @@ Classe
         Pode ter mais de um construtor para mesma Classe
         Deixa seu código mais limpo
 
+---------------------------------------------------------------------------------------------------------------------
+    Manipulação de valores
+        Concatenação(interpolação) de strings
+
         
