@@ -4,8 +4,10 @@ using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 using System.Globalization;
 
-//Formatando o dateTime
+// //Formatando o dateTime
+// DateTime data = DateTime.Parse("12/06/2024 21:00");
 
+// Console.WriteLine(data);
 
 
 // //POrcentagem

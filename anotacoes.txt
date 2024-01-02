@@ -189,4 +189,12 @@ Classe
         Quando tenta somar strings(usando +), ele entende como concatenação, pois não há como "somar" dois textos
         Para somar precisa converter para int
 
+---------------------------------------------------------------------------------------------------------------------
+
+    Versionamento com GIT e GitHub
+
+        git clone: clona o repositorio remoto para uma pasta local
+        git commit: gravas a alterações no repositório remoto
+        git pull: busca e puxa as alterações no repositório remoto e atualiza a pasta local
+        git push: manda as alterações da pasta local para para o repositorio remoto
         
