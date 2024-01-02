@@ -33,7 +33,8 @@ namespace CursoCSharp.Models
 
             for(int cont = 0; cont < Alunos.Count; cont++){
 
-                string Texto = "Aluno n°: " + cont + " " + Alunos[cont].NomeCompleto;
+                //string Texto = "Aluno n°: " + cont + " " + Alunos[cont].NomeCompleto;
+                string Texto = $"Aluno n°{cont}: {Alunos[cont].NomeCompleto}";
                 Console.WriteLine(Texto);
                 Console.WriteLine("------------------------------------------");
             }

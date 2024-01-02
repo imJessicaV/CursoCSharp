@@ -185,5 +185,6 @@ Classe
 ---------------------------------------------------------------------------------------------------------------------
     Manipulação de valores
         Concatenação(interpolação) de strings
+        Colocar $ na frente permite colocar as variaveis de forma mais fácil(interpolação)
 
         
