@@ -3,18 +3,26 @@
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 
-Pessoa PessoaUm = new Pessoa(nome:"Jéssica", sobreNome:"Vitoriano");
-Pessoa PessoaDois = new Pessoa(nome:"Davidson", sobreNome:"Vitoriano");// o () é o construtor
-Pessoa PessoaTres = new Pessoa(nome:"Boomer", sobreNome:"Vitoriano");
+//Concatenação de valores
+string NumeroUm = "10";
+int NumeroDois = 20;
+string Resultado = NumeroUm + NumeroDois;
 
-Curso CursoIngles = new Curso();
-CursoIngles.NomeCurso = "Ingles";
-CursoIngles.Alunos = new List<Pessoa>();
+Console.WriteLine(Resultado);
 
-CursoIngles.AdicionarAluno(PessoaUm);
-CursoIngles.AdicionarAluno(PessoaDois);
-CursoIngles.AdicionarAluno(PessoaTres);
-CursoIngles.ListarAlunos();
+
+// Pessoa PessoaUm = new Pessoa(nome:"Jéssica", sobreNome:"Vitoriano");
+// Pessoa PessoaDois = new Pessoa(nome:"Davidson", sobreNome:"Vitoriano");// o () é o construtor
+// Pessoa PessoaTres = new Pessoa(nome:"Boomer", sobreNome:"Vitoriano");
+
+// Curso CursoIngles = new Curso();
+// CursoIngles.NomeCurso = "Ingles";
+// CursoIngles.Alunos = new List<Pessoa>();
+
+// CursoIngles.AdicionarAluno(PessoaUm);
+// CursoIngles.AdicionarAluno(PessoaDois);
+// CursoIngles.AdicionarAluno(PessoaTres);
+// CursoIngles.ListarAlunos();
 
 
 //Propriedades, metodos e construtores

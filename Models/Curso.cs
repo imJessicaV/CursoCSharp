@@ -34,7 +34,7 @@ namespace CursoCSharp.Models
             for(int cont = 0; cont < Alunos.Count; cont++){
 
                 //string Texto = "Aluno n°: " + cont + " " + Alunos[cont].NomeCompleto;
-                string Texto = $"Aluno n°{cont}: {Alunos[cont].NomeCompleto}";
+                string Texto = $"Aluno n°{cont + 1}: {Alunos[cont].NomeCompleto}";//começa no numero 1
                 Console.WriteLine(Texto);
                 Console.WriteLine("------------------------------------------");
             }

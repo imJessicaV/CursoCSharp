@@ -186,5 +186,7 @@ Classe
     Manipulação de valores
         Concatenação(interpolação) de strings
         Colocar $ na frente permite colocar as variaveis de forma mais fácil(interpolação)
+        Quando tenta somar strings(usando +), ele entende como concatenação, pois não há como "somar" dois textos
+        Para somar precisa converter para int
 
         
