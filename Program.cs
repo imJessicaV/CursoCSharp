@@ -4,12 +4,25 @@ using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 using System.Globalization;
 
-//Manipulando valores
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+//Formatando o dateTime
 
-decimal ValorMonetario = 3482.40M;
-//formata para uma outra cultura mesmo que tenha sido definida a cultura do sistema
-Console.WriteLine(ValorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));// C é de currency(valor monetário/moeda)
+
+
+// //POrcentagem
+// double Percent = .3456;
+
+// Console.WriteLine(Percent.ToString("P"));
+
+// int Numero = 323454;
+// Console.WriteLine(Numero.ToString("##-##-##"));
+
+//Manipulando valores
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+// decimal ValorMonetario = 3482.40M;
+// //formata para uma outra cultura mesmo que tenha sido definida a cultura do sistema
+// Console.WriteLine(ValorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));// C é de currency(valor monetário/moeda)
+// //C pode ser complementado por numeros que significam as casas decimai. EX: C4
 
 
 //Concatenação de valores
