@@ -2,13 +2,22 @@
 
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
+using System.Globalization;
+
+//Manipulando valores
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+decimal ValorMonetario = 3482.40M;
+//formata para uma outra cultura mesmo que tenha sido definida a cultura do sistema
+Console.WriteLine(ValorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));// C é de currency(valor monetário/moeda)
+
 
 //Concatenação de valores
-string NumeroUm = "10";
-int NumeroDois = 20;
-string Resultado = NumeroUm + NumeroDois;
+// string NumeroUm = "10";
+// int NumeroDois = 20;
+// string Resultado = NumeroUm + NumeroDois;
 
-Console.WriteLine(Resultado);
+// Console.WriteLine(Resultado);
 
 
 // Pessoa PessoaUm = new Pessoa(nome:"Jéssica", sobreNome:"Vitoriano");
