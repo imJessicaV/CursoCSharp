@@ -148,4 +148,53 @@ Classe
 
         Indice
             Posição de um determinado valor de um array, iniciando por 0    
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+    Propriedades
+        Membro que ofrece um mecanismo felixivel para ler, gravar ou calcular o valor de um campo particular
+
+        Public: qualquer um pode acessar(instanciar) essa classe. Pode ser usada na classe e em propriedade. Sem restrição de acesso
+        Private: acesso restrito. Só pode ser acessado dentro da própria classe e não são acessiveis externamente. A variavel só pode ser
+        acessada pela classe onde está inserida e está protegida de alterações externas
+
+        Encapsulamento: proteger um campo de alteração externa, para que possa ser feita uma validação antes de atribuir um valor
+        Campo não possui get e set. Só propriedade possui get e ser.
+
+        Propriedade somente leitura(get)
+
+    Metodos
+        Bloco de codigo que contem diversas instruções
+
+        Assinatura do metodo
+        void: vazio, quando não é necessário um retorno
+        nome do metodo: nome para identificar o metodo(a seu criterio)
+        parametros: argumentos do metodo | classe + uma variavel que representa a classe(a seu critério)
+        
+        new é a forma de instanciar a classe(materializar a classe)
+
+    Construtores
+        Permite definir valores padrão, limite a instaciação e grave códigos flexiveis e fácies de ler.
+        Sempre terá o mesmo nome da classe
+        Sempre fica abaixo da classe
+        Não possui nenhum tipo de retorno(void, int por exemplo)
+        Pode receber parametros ou ser vazio
+        Pode ter mais de um construtor para mesma Classe
+        Deixa seu código mais limpo
+
+---------------------------------------------------------------------------------------------------------------------
+    Manipulação de valores
+        Concatenação(interpolação) de strings
+        Colocar $ na frente permite colocar as variaveis de forma mais fácil(interpolação)
+        Quando tenta somar strings(usando +), ele entende como concatenação, pois não há como "somar" dois textos
+        Para somar precisa converter para int
+
+---------------------------------------------------------------------------------------------------------------------
+
+    Versionamento com GIT e GitHub
+
+        git clone: clona o repositorio remoto para uma pasta local
+        git commit: gravas a alterações no repositório remoto
+        git pull: busca e puxa as alterações no repositório remoto e atualiza a pasta local
+        git push: manda as alterações da pasta local para para o repositorio remoto
         

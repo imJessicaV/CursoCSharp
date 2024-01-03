@@ -2,26 +2,79 @@
 
 using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
+using System.Globalization;
+
+// //Formatando o dateTime
+// DateTime data = DateTime.Parse("12/06/2024 21:00");
+
+// Console.WriteLine(data);
+
+
+// //POrcentagem
+// double Percent = .3456;
+
+// Console.WriteLine(Percent.ToString("P"));
+
+// int Numero = 323454;
+// Console.WriteLine(Numero.ToString("##-##-##"));
+
+//Manipulando valores
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+// decimal ValorMonetario = 3482.40M;
+// //formata para uma outra cultura mesmo que tenha sido definida a cultura do sistema
+// Console.WriteLine(ValorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));// C é de currency(valor monetário/moeda)
+// //C pode ser complementado por numeros que significam as casas decimai. EX: C4
+
+
+//Concatenação de valores
+// string NumeroUm = "10";
+// int NumeroDois = 20;
+// string Resultado = NumeroUm + NumeroDois;
+
+// Console.WriteLine(Resultado);
+
+
+// Pessoa PessoaUm = new Pessoa(nome:"Jéssica", sobreNome:"Vitoriano");
+// Pessoa PessoaDois = new Pessoa(nome:"Davidson", sobreNome:"Vitoriano");// o () é o construtor
+// Pessoa PessoaTres = new Pessoa(nome:"Boomer", sobreNome:"Vitoriano");
+
+// Curso CursoIngles = new Curso();
+// CursoIngles.NomeCurso = "Ingles";
+// CursoIngles.Alunos = new List<Pessoa>();
+
+// CursoIngles.AdicionarAluno(PessoaUm);
+// CursoIngles.AdicionarAluno(PessoaDois);
+// CursoIngles.AdicionarAluno(PessoaTres);
+// CursoIngles.ListarAlunos();
+
+
+//Propriedades, metodos e construtores
+// Pessoa Pessoa = new Pessoa();
+// Pessoa.Nome = "Jéssica";
+// Pessoa.SobreNome = "Vitoriano";
+// Pessoa.Idade = 35;
+// Pessoa.Apresentar();
 
 //Listas(array melhorado)
-List<string> listaString = new List<string>();
+// List<string> listaString = new List<string>();
 
-listaString.Add("Jessica");
-listaString.Add("Batista");
-listaString.Add("Genilda");
-listaString.Add("Davidson");
+// listaString.Add("Jessica");
+// listaString.Add("Batista");
+// listaString.Add("Genilda");
+// listaString.Add("Davidson");
 
-for(int cont = 0; cont < listaString.Count; cont++){
-    Console.WriteLine($"{cont} - {listaString[cont]}");
-}
+// for(int cont = 0; cont < listaString.Count; cont++){
+//     Console.WriteLine($"{cont} - {listaString[cont]}");
+// }
 
-Console.WriteLine("Com foreach");
+// Console.WriteLine("Com foreach");
 
-int contFor = 0;
-foreach(string item in listaString){
-    Console.WriteLine($"{contFor} - {item}");
-    contFor++;
-}
+// int contFor = 0;
+// foreach(string item in listaString){
+//     Console.WriteLine($"{contFor} - {item}");
+//     contFor++;
+// }
 
 //Arrays
 // int[] Inteiros = new int[3];
