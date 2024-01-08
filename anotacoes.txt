@@ -205,3 +205,7 @@ Classe
         Exceção: recurso de manipulação de exceções do C# ajudam a lidar com qualquer situação excepcional ou inesperada
         que ocorram quando um programa for executado.
         
+        Exceção generica: 
+        Exceção especifica:
+
+        
