@@ -4,13 +4,19 @@ using System.Diagnostics.Contracts;
 using CursoCSharp.Models; //Aponta onde a classe está para poder usa-la
 using System.Globalization;
 
+
+
 //Exceções | Lendo conteudo de um arquivo
+
+try{
 string[] Linhas = File.ReadAllLines("Arquivos/ArquivoLeitura.txt");
 
 foreach(string linha in Linhas){
     Console.WriteLine(linha);
 }
-
+} catch(Exception ex){
+    Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+}
 
 // //Formatando o dateTime
 // DateTime data = DateTime.Parse("12/06/2024 21:00");
